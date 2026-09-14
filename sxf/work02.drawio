@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="招聘AI" id="oG8POZCdH31cuqXq7f9_">
+    <mxGraphModel dx="4115" dy="3904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="定时任务" vertex="1">
+          <mxGeometry height="30" width="230" x="302" y="-680" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="岗位配置/候选人标准/任务状态/运行记录" vertex="1">
+          <mxGeometry height="60" width="348" x="243" y="-620" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-7" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="412.16999999999996" y="-550" as="sourcePoint" />
+            <mxPoint x="412.16999999999996" y="-490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DutyScheduler" vertex="1">
+          <mxGeometry height="60" width="120" x="353" y="-480" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="下发任务" vertex="1">
+          <mxGeometry height="30" width="60" x="433" y="-540" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-10" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="412.58" y="-410" as="sourcePoint" />
+            <mxPoint x="412.58" y="-350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="任务分片" vertex="1">
+          <mxGeometry height="30" width="60" x="433" y="-400" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="290" width="496" x="169" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RDP 浏览器运行实例" vertex="1">
+          <mxGeometry height="20" width="496" x="169" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="页面状态识别" vertex="1">
+          <mxGeometry height="30" width="91" x="182" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="候选人筛选" vertex="1">
+          <mxGeometry height="30" width="91" x="311" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="行为决策" vertex="1">
+          <mxGeometry height="30" width="91" x="433" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="页面操作" vertex="1">
+          <mxGeometry height="30" width="91" x="553" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="登陆验证" vertex="1">
+          <mxGeometry height="30" width="60" x="193" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="弹窗检测" vertex="1">
+          <mxGeometry height="30" width="60" x="193" y="-210" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="页面恢复" vertex="1">
+          <mxGeometry height="30" width="60" x="193" y="-180" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLM 判断" vertex="1">
+          <mxGeometry height="30" width="60" x="323" y="-230" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="疲劳模型" vertex="1">
+          <mxGeometry height="30" width="60" x="448.5" y="-230" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="节奏控制" vertex="1">
+          <mxGeometry height="30" width="60" x="448.5" y="-200" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="随机等待" vertex="1">
+          <mxGeometry height="30" width="60" x="448.5" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="多轮对话" vertex="1">
+          <mxGeometry height="30" width="60" x="568.5" y="-230" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="收取简历" vertex="1">
+          <mxGeometry height="30" width="60" x="568.5" y="-200" as="geometry" />
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-28" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="398" y="-40" as="sourcePoint" />
+            <mxPoint x="398" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aA9tYA3a3oeNwmBFjMr4-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="执行结果/状态回传" vertex="1">
+          <mxGeometry height="30" width="130" x="433" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="用户提问" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="589" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ReactAgent" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="719" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="369.40999999999997" y="649" as="sourcePoint" />
+            <mxPoint x="369.40999999999997" y="719" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="TodoWrite拆分任务" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="849" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="369.40999999999997" y="779" as="sourcePoint" />
+            <mxPoint x="369.40999999999997" y="849" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="data-analysis Skill" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="979" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ToolSearch 按需发现数据分析工具&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="1109" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="369.40999999999997" y="909" as="sourcePoint" />
+            <mxPoint x="369.40999999999997" y="979" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="369.41" y="1039" as="sourcePoint" />
+            <mxPoint x="369.41" y="1109" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp;1. 探索 Schema       │&lt;br/&gt;│ listTables           │&lt;br/&gt;│        ↓             │&lt;br/&gt;│ describeTables&amp;nbsp; &amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="1109" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp;2. 业务消歧          │&lt;br/&gt;│ lookupGlossary       │&lt;br/&gt;│ 探针 SQL&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;3. SQL 安全校验      │&lt;br/&gt;│ JSqlParser AST       │&lt;br/&gt;│ SELECT 白名单        │&lt;br/&gt;│ 危险函数 / JOIN 等&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1OHxzgAEzwKxTbtmpKc_-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="369.40999999999997" y="1169" as="sourcePoint" />
+            <mxPoint x="369.40999999999997" y="1239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-15" connectable="0" parent="1OHxzgAEzwKxTbtmpKc_-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="生成SQL" vertex="1">
+          <mxGeometry relative="1" x="0.0846" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;数据权限改写&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Explain预检查&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;只读执行SQL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="1OHxzgAEzwKxTbtmpKc_-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;敏感字段脱敏&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="1920" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
