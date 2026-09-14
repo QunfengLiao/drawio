@@ -1,0 +1,148 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="CPg0RZWMiyJG56L97Wf_">
+    <mxGraphModel dx="1646" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="95" width="1070" x="450" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-2" parent="1" style="whiteSpace=wrap;html=1;" value="G:Goroutine协程" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-3" parent="1" style="whiteSpace=wrap;html=1;" value="M:系统级线程" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-4" parent="1" style="whiteSpace=wrap;html=1;" value="P:逻辑处理器，负责调度G" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G1" vertex="1">
+          <mxGeometry height="40" width="80" x="520" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G2" vertex="1">
+          <mxGeometry height="40" width="80" x="630" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G3" vertex="1">
+          <mxGeometry height="40" width="80" x="740" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G4" vertex="1">
+          <mxGeometry height="40" width="80" x="850" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="M1" vertex="1">
+          <mxGeometry height="40" width="80" x="680" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="P1" vertex="1">
+          <mxGeometry height="40" width="80" x="680" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CPU" vertex="1">
+          <mxGeometry height="40" width="80" x="680" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G5" vertex="1">
+          <mxGeometry height="40" width="80" x="1040" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G6" vertex="1">
+          <mxGeometry height="40" width="80" x="1150" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G7" vertex="1">
+          <mxGeometry height="40" width="80" x="1260" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G8" vertex="1">
+          <mxGeometry height="40" width="80" x="1370" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="M2" vertex="1">
+          <mxGeometry height="40" width="80" x="1200" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="P1" vertex="1">
+          <mxGeometry height="40" width="80" x="1200" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CPU" vertex="1">
+          <mxGeometry height="40" width="80" x="1200" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;for i := 0; i &amp;lt; 100000; i++ {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; go task()&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="290" x="640" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10万个 G&lt;br/&gt;↓&lt;br/&gt;由 Go Runtime 调度&lt;br/&gt;↓&lt;br/&gt;跑在少量 M 上" vertex="1">
+          <mxGeometry height="30" width="230" x="890" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="所以 goroutine 才能做到非常轻量。" vertex="1">
+          <mxGeometry height="30" width="230" x="900" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="如果没有P" vertex="1">
+          <mxGeometry height="30" width="120" x="460" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G1" vertex="1">
+          <mxGeometry height="40" width="80" x="520" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G2" vertex="1">
+          <mxGeometry height="40" width="80" x="630" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G3" vertex="1">
+          <mxGeometry height="40" width="80" x="740" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G4" vertex="1">
+          <mxGeometry height="40" width="80" x="850" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G5" vertex="1">
+          <mxGeometry height="40" width="80" x="970" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G6" vertex="1">
+          <mxGeometry height="40" width="80" x="1080" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G7" vertex="1">
+          <mxGeometry height="40" width="80" x="1190" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="G8" vertex="1">
+          <mxGeometry height="40" width="80" x="1300" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="M1" vertex="1">
+          <mxGeometry height="40" width="80" x="730" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="M2" vertex="1">
+          <mxGeometry height="40" width="80" x="870" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="M3" vertex="1">
+          <mxGeometry height="40" width="80" x="1020" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Verdana&quot;&gt;M 要执行 Go 代码必须关联一个 P；P 的数量等于 &lt;/font&gt;&lt;code style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;GOMAXPROCS,GOMAXPROCS = 4,说明有4个P，意味同一时刻最多有4个M执行用户Go代码&lt;/font&gt;&lt;/code&gt;" vertex="1">
+          <mxGeometry height="30" width="800" x="660" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="全局队列" vertex="1">
+          <mxGeometry height="30" width="60" x="930" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-36" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=11;endSize=3;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="940" y="980" as="sourcePoint" />
+            <mxPoint x="940" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="锁" vertex="1">
+          <mxGeometry height="50" width="270" x="780" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-38" edge="1" parent="1" source="8BVeFYIXzPQDEAe8jRxO-31" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="860" y="1090" as="sourcePoint" />
+            <mxPoint x="910" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-39" edge="1" parent="1" source="8BVeFYIXzPQDEAe8jRxO-32" style="endArrow=classic;html=1;rounded=0;exitX=0.588;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="870" y="1090" as="sourcePoint" />
+            <mxPoint x="920" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-40" edge="1" parent="1" source="8BVeFYIXzPQDEAe8jRxO-33" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="940" y="1090" as="sourcePoint" />
+            <mxPoint x="990" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p class=&quot;PDq2pG_selectionAnchorContainer&quot;&gt;&lt;strong&gt;M 越多，抢全局锁越严重。&lt;/strong&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="1150" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="8BVeFYIXzPQDEAe8jRxO-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;blockquote&gt;&lt;p class=&quot;PDq2pG_selectionAnchorContainer&quot;&gt;&lt;strong&gt;P的作用：不再让所有 M 都主要围着同一个全局队列抢任务。&lt;/strong&gt;&lt;/p&gt;P = 给 M 一个自己的任务工作台&lt;/blockquote&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="570" x="370" y="1250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
